@@ -43,6 +43,12 @@
 
 	<modules>
 		<!-- look ma, no poms ! -->
+<<<<<<< HEAD
+=======
+		<module>../../bundle1</module>
+		<module>../../bundle1.tests</module>
+		<module>../../feature</module>
+>>>>>>> branch 'master' of https://github.com/dk10315/pomless.git
 		<module>../../bundles</module>
 		<module>../../features</module>
 	</modules>
