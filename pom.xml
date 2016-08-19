@@ -9,12 +9,25 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>testParent.groupId</groupId>
-	<artifactId>testparent</artifactId>
+	<groupId>groupId</groupId>
+	<artifactId>root.parent</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
+	<properties>
+		<tycho.version>0.25.0</tycho.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<repo.url>http://download.eclipse.org/releases/neon</repo.url>
+	</properties>
 
+	<repositories>
+		<repository>
+			<id>mars</id>
+			<url>${repo.url}</url>
+			<layout>p2</layout>
+		</repository>
+
+	</repositories>
 	<pluginRepositories>
 		<pluginRepository>
 			<id>tycho-snapshots</id>
@@ -28,19 +41,12 @@
 		</pluginRepository>
 	</pluginRepositories>
 
-	<repositories>
-		<repository>
-			<id>p2.repo</id>
-			<url>http://download.eclipse.org/releases/neon</url>
-			<layout>p2</layout>
-		</repository>
-	</repositories>
-
 	<modules>
 		<!-- look ma, no poms ! -->
 		<module>bundle1</module>
 		<module>bundle1.tests</module>
 		<module>feature</module>
+		<module>bundles</module>
 	</modules>
 
 	<build>
