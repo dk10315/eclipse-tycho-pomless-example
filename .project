@@ -10,21 +10,39 @@
 	</natures>
 	<filteredResources>
 		<filter>
-			<id>1471593478609</id>
+			<id>1471602064816</id>
 			<name></name>
-			<type>30</type>
+			<type>9</type>
 			<matcher>
 				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-feature*</arguments>
+				<arguments>1.0-name-matches-false-false-bundles</arguments>
 			</matcher>
 		</filter>
 		<filter>
-			<id>1471593478647</id>
+			<id>1471602064819</id>
 			<name></name>
-			<type>30</type>
+			<type>9</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-features</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1471602064822</id>
+			<name></name>
+			<type>9</type>
 			<matcher>
 				<id>org.eclipse.ui.ide.multiFilter</id>
 				<arguments>1.0-name-matches-false-false-releng</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1471602064825</id>
+			<name></name>
+			<type>9</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-tests</arguments>
 			</matcher>
 		</filter>
 		<filter>
@@ -34,6 +52,15 @@
 			<matcher>
 				<id>org.eclipse.ui.ide.multiFilter</id>
 				<arguments>1.0-name-matches-false-false-*pom.xml</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1471602090680</id>
+			<name>features</name>
+			<type>13</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-pom.xml</arguments>
 			</matcher>
 		</filter>
 	</filteredResources>
