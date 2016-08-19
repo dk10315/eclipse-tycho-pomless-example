@@ -10,7 +10,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>groupId</groupId>
-	<artifactId>bundles</artifactId>
+	<artifactId>update</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	
@@ -23,6 +23,6 @@
 	
 	<modules>
 		<!-- look ma, no poms ! -->
-		<module>subbundle</module>
+		<module>update</module>
 	</modules>
 </project>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/subfeature_1.0.0.qualifier.jar" id="subfeature" version="1.0.0.qualifier">
+      <category name="category"/>
+   </feature>
+   <category-def name="category" label="Category"/>
+</site>
