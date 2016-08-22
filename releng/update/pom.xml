@@ -12,17 +12,11 @@
 	<groupId>groupId</groupId>
 	<artifactId>update</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>pom</packaging>
+	<packaging>eclipse-repository</packaging>
 	
 	<parent>
 		<groupId>groupId</groupId>
 		<artifactId>root.parent</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
-		<relativePath>../releng/subroot/pom.xml</relativePath>
 	</parent>
-	
-	<modules>
-		<!-- look ma, no poms ! -->
-		<module>update</module>
-	</modules>
 </project>
