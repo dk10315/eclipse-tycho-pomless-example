@@ -45,6 +45,7 @@
 		<!-- look ma, no poms ! -->
 		<module>../../bundles</module>
 		<module>../../features</module>
+		<module>../../releng</module>
 	</modules>
 
 	<build>
